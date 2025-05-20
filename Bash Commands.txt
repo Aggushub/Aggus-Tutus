@@ -1,7 +1,7 @@
-Bash Commands with Use and Test Cases:-
+#Bash Commands with Use and Test Cases:-
 _____________________________________________________________________________________________________________________
 
- File and Directory Commands
+ #File and Directory Commands
 _______________________________
 
 1. ls - List files and directories
