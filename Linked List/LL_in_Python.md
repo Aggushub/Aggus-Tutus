@@ -1,5 +1,3 @@
----
-
 ## ✅ Linked List in Python with All Operations & Definitions
 
 ```python
