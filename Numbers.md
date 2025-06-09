@@ -106,7 +106,7 @@ $$
 
 ## 🔍 Special Number Types
 
-### ⭐9. Armstrong Number (Narcissistic Number)
+### ⭐ 9. Armstrong Number (Narcissistic Number)
 
 > A number equal to the **sum of its digits each raised to the power of the number of digits**.
 
@@ -120,7 +120,7 @@ $$
 
 ---
 
-### 😊10. Happy Number
+### 😊 10. Happy Number
 
 > A number which eventually reaches 1 when replaced by the **sum of squares of its digits**, repeatedly.
 
@@ -134,7 +134,7 @@ $$
 
 ---
 
-### 💯11. Perfect Number
+### 💯 11. Perfect Number
 
 > A number equal to the **sum of its proper divisors** (excluding itself).
 
@@ -142,7 +142,7 @@ $$
 
 ---
 
-### 🔁12. Palindrome Number
+### 🔁 12. Palindrome Number
 
 > A number that reads the **same forward and backward**.
 
@@ -150,7 +150,7 @@ $$
 
 ---
 
-### 🔄13. Harshad Number (Niven Number)
+### 🔄 13. Harshad Number (Niven Number)
 
 > A number divisible by the **sum of its digits**.
 
@@ -158,7 +158,7 @@ $$
 
 ---
 
-### 🧠14. Strong Number
+### 🧠 14. Strong Number
 
 > A number equal to the **sum of factorials of its digits**.
 
@@ -166,7 +166,7 @@ $$
 
 ---
 
-### 🧮15. Automorphic Number
+### 🧮 15. Automorphic Number
 
 > A number whose **square ends in the same digits** as the number itself.
 
