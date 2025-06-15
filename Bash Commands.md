@@ -1,7 +1,105 @@
-Bash Commands with Use and Test Cases:-
-________________________________________
+# Bash Commands with Use and Test Cases:-
+Bash commands are text-based instructions used in the Bash shell (Bourne Again SHell), which is one of the most widely used command-line interpreters in Linux and Unix-like systems. They allow users to interact with the system, control processes, manipulate files, and automate tasks. I made this list while learning the Bash scripting course from Udemy.
 
- File and Directory Commands
+### Adminsitration Commands
+__________________________
+
+1. hostname - Shows the name of the system
+
+`hostname` - shows your system name (ex. AggusSystem)
+
+2. clear - It removes all the contents in the window to maintain good visibility. But it won't revoke the actions, functions or files
+
+`clear` - resets the window to be like a new window.
+
+3. id - It shows the ids of the user and the groups you are in
+
+`id` - shows the userid and groupid
+
+4. adduser - It allows you to add a regular user in the system
+
+`adduser aggu` - It allows you to add a regular user named 'aggu' in the system
+
+5. userdel - It allows you to delete a regular user from the system
+
+`userdel aggu` - It deletes the regular user named 'aggu' from the system
+
+6. su - It allows you to switch users
+
+`su root` - It switches the user to the root user
+
+7. groupadd - It allows you to add a new group in the system
+
+`addgroup dev` - It adds a new group by the name of 'dev'
+
+8. groupdel - It allows you to delete an existing group from a system
+
+`groupdel dev` - It deletes the group 'dev' from the system
+
+9.usermod -  It is used to modify an existing user account
+
+`usermod -a -G docker joel` - This adds the user joel to the docker group while keeping their membership in other groups.
+
+ Here's a complete guide to commonly used flags with `usermod`:
+
+---
+
+### 🔧 Common `usermod` Options
+
+| Option | Description                                         | Example                              |
+| ------ | --------------------------------------------------- | ------------------------------------ |
+| `-a`   | Append to groups (only with `-G`)                   | `usermod -a -G sudo joel`            |
+| `-G`   | Set **supplementary groups**                        | `usermod -G wheel joel`              |
+| `-g`   | Set **primary group**                               | `usermod -g users joel`              |
+| `-d`   | Set **home directory**                              | `usermod -d /newhome/joel joel`      |
+| `-m`   | Move the content of old home to new (use with `-d`) | `usermod -d /newhome/joel -m joel`   |
+| `-s`   | Set default **shell**                               | `usermod -s /bin/zsh joel`           |
+| `-l`   | Change the **login name** (username)                | `usermod -l newname oldname`         |
+| `-L`   | **Lock** the account (disable password login)       | `usermod -L joel`                    |
+| `-U`   | **Unlock** the account                              | `usermod -U joel`                    |
+| `-e`   | Set account **expiry date** (format: YYYY-MM-DD)    | `usermod -e 2025-12-31 joel`         |
+| `-f`   | Set **inactive days** after password expiry         | `usermod -f 30 joel` (30 days grace) |
+
+---
+
+ Examples
+
+1. Change shell to bash:
+
+   ```bash
+   usermod -s /bin/bash joel
+   ```
+
+2. Move user to a new home directory:
+
+   ```bash
+   usermod -d /home/newjoel -m joel
+   ```
+
+3. Lock a user account (temporarily disable login):
+
+   ```bash
+   usermod -L joel
+   ```
+
+4. Change username:
+
+   ```bash
+   usermod -l newjoel joel
+   ```
+
+
+
+* `usermod` requires **root privileges**.
+* Always back up user data before making major changes like home directory move or username change.
+* Use `id username` to check a user’s group memberships before and after changes.
+
+
+---
+
+
+### File and Directory Commands
+---
 
 1. ls - List files and directories
 
@@ -41,7 +139,7 @@ ________________________________________
 
 
 
-File Viewing and Editing
+### File Viewing and Editing
 __________________________
 
 10. cat - View file contents
@@ -66,7 +164,7 @@ __________________________
 
 
 
- File Search and Permissions
+ ### File Search and Permissions
 ____________________________
 
 15. find - Search files/directories
@@ -87,7 +185,7 @@ ____________________________
 
 
 
-System Information and Monitoring
+### System Information and Monitoring
 __________________________________
 
 19. uname - Show system info
@@ -120,7 +218,7 @@ __________________________________
 
 
 
-Archiving and Compression
+### Archiving and Compression
 __________________________
 
 26. tar - Archive files
@@ -158,7 +256,7 @@ _________________
 
 
 
-Networking Commands
+### Networking Commands
 ____________________
 
 33. ping - Check network
@@ -183,7 +281,7 @@ ____________________
 
 
 
-Looping and Scripting
+### Looping and Scripting
 _______________________
 
 38. for - Loop
@@ -200,7 +298,7 @@ _______________________
 
 
 
-Reading and Writing contents
+### Reading and Writing contents
 _____________________________
 
 41. echo - Print text
@@ -213,7 +311,7 @@ _____________________________
 
 
 
-Package Management (Debian/Ubuntu)
+### Package Management (Debian/Ubuntu)
 ___________________________________
 
 43. apt update - Refresh package index
@@ -230,7 +328,7 @@ ___________________________________
 
 
 
-Example Test Script
+## Example Test Script
 
 ```bash
 #!/bin/bash
