@@ -16,10 +16,15 @@ This repo is not just a **technical knowledge base**, but a **symbol of resilien
 
 ### 🚀 Explore the Knowledge
 
-🌐 **Tri-Lingual Function Comparison** — one of the coolest parts of this repo!
+🌐 **Tri-Lingual Functions** ([**Tri-Ling Fun.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/Tri-Ling%20Fun.md)) — one of the coolest parts of this repo!
+
 It compares **Python 🐍**, **JavaScript 💻**, and **Java ☕** most important functions — side by side, with definitions, and syntax.
 
-📄 👉 [**Tri-Ling Fun.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/Tri-Ling%20Fun.md)
+
+
+🗄️ **Quad-SQL Commands** ([**QuasQL.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/QuasQl.md)) — an awesome place to brush up SQL! 
+
+It compares  **MySQL**, **PostgreSQL 💻**, **Microsoft SQL** and **Oracle SQL** most important Commands — side by side, with definitions, and syntax.
 
 ---
 
