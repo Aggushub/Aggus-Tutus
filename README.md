@@ -39,10 +39,10 @@ Together, let’s **grow**, **code**, and **build** something amazing! 🌱💫
 
 ### 🧩 Tech Stack & Topics
 
-💡 Programming Languages: Python, Java, JavaScript
-🧠 Concepts: OOP, Regex, Loops, Constructors, Exception Handling, File Handling
-⚙️ Tools: Git, GitHub, Bash, SQL, and more
-🎯 Focus: Learning through documentation and practice
+- 💡 Programming Languages: Python, Java, JavaScript
+- 🧠 Concepts: OOP, Regex, Loops, Constructors, Exception Handling, File Handling
+- ⚙️ Tools: Git, GitHub, Bash, SQL, and more
+- 🎯 Focus: Learning through documentation and practice
 
 ---
 
