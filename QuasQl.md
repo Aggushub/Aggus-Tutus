@@ -65,13 +65,13 @@
 
 ### **6. Functions & Expressions**
 
-| Index + Description                         | MySQL                | PostgreSQL | MS SQL        | Oracle SQL        |   |       |
-| ------------------------------------------- | -------------------- | ---------- | ------------- | ----------------- | - | ----- |
-| **26. Concatenate strings.**                | `CONCAT(col1,col2)`  | Same       | `col1 + col2` | `col1             |   | col2` |
-| **27. Substring — extract part of string.** | `SUBSTRING(col,1,3)` | Same       | Same          | `SUBSTR(col,1,3)` |   |       |
-| **28. Uppercase conversion.**               | `UPPER(col)`         | Same       | Same          | Same              |   |       |
-| **29. Lowercase conversion.**               | `LOWER(col)`         | Same       | Same          | Same              |   |       |
-| **30. Round numeric value.**                | `ROUND(col,2)`       | Same       | Same          | Same              |   |       |
+| Index + Description                         | MySQL                | PostgreSQL | MS SQL        | Oracle SQL        |   
+| ------------------------------------------- | -------------------- | ---------- | ------------- | ----------------- |  
+| **26. Concatenate strings.**                | `CONCAT(col1,col2)`  | Same       | `col1 + col2` | `col1 || col2     |
+| **27. Substring — extract part of string.** | `SUBSTRING(col,1,3)` | Same       | Same          | `SUBSTR(col,1,3)` |   
+| **28. Uppercase conversion.**               | `UPPER(col)`         | Same       | Same          | Same              |   
+| **29. Lowercase conversion.**               | `LOWER(col)`         | Same       | Same          | Same              |   
+| **30. Round numeric value.**                | `ROUND(col,2)`       | Same       | Same          | Same              |   
 
 ---
 
