@@ -24,7 +24,7 @@ It compares **Python 🐍**, **JavaScript 💻**, and **Java ☕** most importan
 
 🗄️ **Quad-SQL Commands** ([**QuasQL.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/QuasQl.md)) — an awesome place to brush up SQL! 
 
-It compares  **MySQL**, **PostgreSQL 💻**, **Microsoft SQL** and **Oracle SQL** most important Commands — side by side, with definitions, and syntax.
+It compares  **MySQL**, **PostgreSQL**, **Microsoft SQL** and **Oracle SQL** most important Commands — side by side, with definitions, and syntax.
 
 ---
 
