@@ -58,6 +58,41 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
+## 🧩 **SET FUNCTIONS COMPARISON**
+
+| Index + Description                                | Python            | JavaScript                                     | Java                                                       
+| -------------------------------------------------- | ----------------- | ---------------------------------------------- | ------------------------------------- 
+| **1. Create a set — unique elements only.**        | `myset = {1,2,3}` | `let myset = new Set([1,2,3])`                 | `Set<Integer> set = new HashSet<>();` |                      |
+| **2. Add an element to set.**                      | `myset.add(4)`    | `myset.add(4)`                                 | `set.add(4);`                         |                      |
+| **3. Remove an element.**                          | `myset.remove(2)` | `myset.delete(2)`                              | `set.remove(2);`                      |                      |
+| **4. Check presence of element.**                  | `2 in myset`      | `myset.has(2)`                                 | `set.contains(2);`                    |                      |
+| **5. Union — combine two sets.**                   | `set1 + set2`     | `new Set([...set1, ...set2])`                  | `set1.addAll(set2);` 
+|                      |
+| **6. Intersection — common elements.**             | `set1 & set2`     | `new Set([...set1].filter(x => set2.has(x)))`  | `set1.retainAll(set2);`               |                      |
+| **7. Difference — elements in one but not other.** | `set1 - set2`     | `new Set([...set1].filter(x => !set2.has(x)))` | `set1.removeAll(set2);`               |                      |
+| **8. Clear all elements.**                         | `myset.clear()`   | `myset.clear()`                                | `set.clear();`                        |                      |
+| **9. Length/size of set.**                         | `len(myset)`      | `myset.size`                                   | `set.size();`                         |                      |
+| **10. Convert to list/array.**                     | `list(myset)`     | `[...myset]`                                   | `new ArrayList<>(set);`               
+
+---
+
+## 🧠 **DICTIONARY / MAP FUNCTIONS COMPARISON**
+
+| Index + Description                           | Python                      | JavaScript                            | Java                                            |
+| --------------------------------------------- | --------------------------- | ------------------------------------- | ----------------------------------------------- |
+| **1. Create dictionary/map.**                 | `d = {'a':1, 'b':2}`        | `let obj = {a:1, b:2}` / `new Map()`  | `Map<String, Integer> map = new HashMap<>();`   |
+| **2. Access value by key.**                   | `d['a']`                    | `obj.a` / `map.get('a')`              | `map.get("a");`                                 |
+| **3. Add or update key-value.**               | `d['c'] = 3`                | `obj.c = 3` / `map.set('c',3)`        | `map.put("c", 3);`                              |
+| **4. Remove key-value pair.**                 | `d.pop('a')`                | `delete obj.a` / `map.delete('a')`    | `map.remove("a");`                              |
+| **5. Check if key exists.**                   | `'a' in d`                  | `'a' in obj` / `map.has('a')`         | `map.containsKey("a");`                         |
+| **6. Get all keys.**                          | `d.keys()`                  | `Object.keys(obj)` / `map.keys()`     | `map.keySet();`                                 |
+| **7. Get all values.**                        | `d.values()`                | `Object.values(obj)` / `map.values()` | `map.values();`                                 |
+| **8. Loop through key-value pairs.**          | `for k,v in d.items(): ...` | `for (let [k,v] of map) {...}`        | `for (Map.Entry<K,V> e : map.entrySet()) {...}` |
+| **9. Get value with default if key missing.** | `d.get('x', 0)`             | `obj.x ?? 0` / `map.get('x') ?? 0`    | `map.getOrDefault("x", 0);`                     |
+| **10. Clear all key-values.**                 | `d.clear()`                 | `map.clear()`                         | `map.clear();`                                  |
+
+---
+
 ## 🧱 OOP CONCEPTS COMPARISON
 
 | Index + Description                             | Python                | JavaScript               | Java                       |
