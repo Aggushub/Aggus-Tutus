@@ -16,9 +16,9 @@ This repo is not just a **technical knowledge base**, but a **symbol of resilien
 
 ### 🚀 Explore the Knowledge
 
-🌐 **Tri-Lingual Functions** ([**Tri-Ling Fun.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/Tri-Ling%20Fun.md)) — one of the coolest parts of this repo!
+🌐 **Quad-Lingual Functions** ([**Quad-Ling Fun.md**](https://github.com/Aggushub/Aggus-Tutus/blob/main/Quad-Ling%20Fun.md)) — one of the coolest parts of this repo!
 
-It compares **Python 🐍**, **JavaScript 💻**, and **Java ☕** most important functions — side by side, with definitions, and syntax.
+It compares **Python 🐍**, **JavaScript 💻**, **Java ☕** and **C# 🎮**'s most important functions — side by side, with definitions, and syntax.
 
 
 
