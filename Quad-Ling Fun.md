@@ -24,7 +24,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🔢 **2. NUMBER FUNCTIONS TABLE**
+## 🔢 **2. NUMBER FUNCTIONS TABLE**
 
 | Index + Name           | Description        | Python          | Java                     | JavaScript      | C#                |
 | ---------------------- | ------------------ | --------------- | ------------------------ | --------------- | ----------------- |
@@ -41,7 +41,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🧮 **3. LIST / ARRAY FUNCTIONS TABLE**
+## 🧮 **3. LIST / ARRAY FUNCTIONS TABLE**
 
 | Index + Name          | Description            | Python             | Java                     | JavaScript      | C#                 |
 | --------------------- | ---------------------- | ------------------ | ------------------------ | --------------- | ------------------ |
@@ -58,7 +58,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🧩 **4. SET FUNCTIONS TABLE**
+## 🧩 **4. SET FUNCTIONS TABLE**
 
 | Index + Name         | Description            | Python        | Java               | JavaScript      | C#                   |     
 | -------------------- | ---------------------- | ------------- | ------------------ | --------------- | -------------------- | 
@@ -75,7 +75,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🗂 **5. DICTIONARY / MAP TABLE**
+## 🗂 **5. DICTIONARY / MAP TABLE**
 
 | Index + Name        | Description       | Python                 | Java                | JavaScript            | C#                          |
 | ------------------- | ----------------- | ---------------------- | ------------------- | --------------------- | --------------------------- |
@@ -92,7 +92,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🧱 **6. OOP TABLE**
+## 🧱 **6. OOP TABLE**
 
 | Index + Name             | Description           | Python          | Java         | JavaScript      | C#            |
 | ------------------------ | --------------------- | --------------- | ------------ | --------------- | ------------- |
@@ -108,7 +108,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 📁 **7. FILE HANDLING TABLE**
+## 📁 **7. FILE HANDLING TABLE**
 
 | Index + Name       | Desc         | Python     | Java             | JS                  | C#                    |
 | ------------------ | ------------ | ---------- | ---------------- | ------------------- | --------------------- |
@@ -119,7 +119,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🔁 **8. LOOPS TABLE**
+## 🔁 **8. LOOPS TABLE**
 
 | Index              | Description          | Python             | Java               | JavaScript          | C#                      |
 | ------------------ | -------------------- | ------------------ | ------------------ | ------------------- | ----------------------- |
@@ -131,7 +131,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🔀 **9. SWITCH / MATCH TABLE**
+## 🔀 **9. SWITCH / MATCH TABLE**
 
 | Index           | Desc         | Python     | Java        | JS          | C#          |
 | --------------- | ------------ | ---------- | ----------- | ----------- | ----------- |
@@ -141,7 +141,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🔍 **10. REGEX TABLE**
+## 🔍 **10. REGEX TABLE**
 
 | Index            | Description        | Python         | Java                | JS             | C#                |
 | ---------------- | ------------------ | -------------- | ------------------- | -------------- | ----------------- |
@@ -152,7 +152,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# ⚠️ **11. EXCEPTION HANDLING TABLE**
+## ⚠️ **11. EXCEPTION HANDLING TABLE**
 
 | Index                  | Desc            | Python     | Java        | JS          | C#          |
 | ---------------------- | --------------- | ---------- | ----------- | ----------- | ----------- |
@@ -163,11 +163,42 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 ---
 
-# 🔡 **12. ASCII TABLE**
+## 🔡 **12. ASCII TABLE**
 
 | Index                | Description          | Python     | Java       | JS                        | C#         |
 | -------------------- | -------------------- | ---------- | ---------- | ------------------------- | ---------- |
 | **80. Char → ASCII** | Get ASCII code       | `ord('A')` | `int('A')` | `'A'.charCodeAt(0)`       | `(int)'A'` |
 | **81. ASCII → Char** | Convert code to char | `chr(65)`  | `(char)65` | `String.fromCharCode(65)` | `(char)65` |
+
+
+---
+
+## ⚙️ **13. BITWISE OPERATIONS TABLE**
+
+| Index                         | Description     | Python     | Java       | JS         | C#            |
+| ----------------------------- | --------------- | ---------- | ---------- | ---------- | ------------- |
+| **82. AND**                   | Bitwise AND     | `a & b`    | `a & b`    | `a & b`    | `a & b`       |
+| **83. OR**                    | Bitwise OR      | `a \| b`   | `a \| b`   | `a \| b`   | `a \| b`      |
+| **84. XOR**                   | Bitwise XOR     | `a ^ b`    | `a ^ b`    | `a ^ b`    | `a ^ b`       |
+| **85. NOT**                   | Bitwise NOT     | `~a`       | `~a`       | `~a`       | `~a`          |
+| **86. Left Shift**            | Shift left      | `a << 1`   | `a << 1`   | `a << 1`   | `a << 1`      |
+| **87. Right Shift**           | Shift right     | `a >> 1`   | `a >> 1`   | `a >> 1`   | `a >> 1`      |
+| **88. Zero-Fill Right Shift** | No sign copying | ❌          | `a >>> 1`  | `a >>> 1`  | ❌ (`uint` >>) |
+| **89. NAND**                  | NOT(AND)        | `~(a & b)` | `~(a & b)` | `~(a & b)` | `~(a & b)`    |
+| **90. NOR** | NOT(OR)         | `~(a \| b)`     | `~(a \| b)` | `~(a \| b)` | `~(a \| b)` |
+
+
+---
+
+## 🔄 **14. SWAPPING WITHOUT TEMP VARIABLE**
+
+| Index                     | Description          | Python                   | Java | JS   | C#   |
+| ------------------------- | -------------------- | ------------------------ | ---- | ---- | ---- |
+| **91. Swap using XOR**    | Fastest bit method   | `a ^= b; b ^= a; a ^= b` | same | same | same |
+| **92. Swap using + / -**  | Math trick           | `a=a+b; b=a-b; a=a-b`    | same | same | same |
+| **92. Swap using * / /**  | Only for non-zero    | `a=a*b; b=a/b; a=a/b`    | same | same | same |
+| **93. Python tuple swap** | Python-only shortcut | `a, b = b, a`            | ❌    | ❌    | ❌    |
+
+
 
 ---
