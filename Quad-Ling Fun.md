@@ -167,7 +167,7 @@ From Strings to OOP, Loops to Regex, Exceptions to ASCII, this doc covers it all
 
 | Index                | Description          | Python     | Java       | JS                        | C#         |
 | -------------------- | -------------------- | ---------- | ---------- | ------------------------- | ---------- |
-| **80. Char → ASCII** | Get ASCII code       | `ord('A')` | `int('A')` | `'A'.charCodeAt(0)`       | `(int)'A'` |
+| **80. Char → ASCII** | Get ASCII code       | `ord('A')` | `(int)'A'` | `'A'.charCodeAt(0)`       | `(int)'A'` |
 | **81. ASCII → Char** | Convert code to char | `chr(65)`  | `(char)65` | `String.fromCharCode(65)` | `(char)65` |
 
 
